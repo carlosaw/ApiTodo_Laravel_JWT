@@ -73,4 +73,9 @@ class AuthController extends Controller
 
         return $array;
     }
+    public function upload(Request $request) {
+        $array = ['error' => ''];
+
+        return $array;
+    }
 }

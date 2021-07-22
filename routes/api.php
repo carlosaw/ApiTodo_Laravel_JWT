@@ -19,6 +19,8 @@ Route::middleware('auth:api')->post('/auth/logout', [AuthController::class, 'log
 
 Route::middleware('auth:api')->get('/auth/me', [AuthController::class, 'me']);
 
+Route::post('/upload', [AuthController::class, 'upload']);
+
 // CRUD do todo
 // POST /todo = Inserir uma tarefa no sistema
 // GET /todos = Ler todas as tarefas do sistema

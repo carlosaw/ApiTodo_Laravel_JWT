@@ -104,5 +104,4 @@ class ApiController extends Controller
 
         return $array;
     }
-
 }
